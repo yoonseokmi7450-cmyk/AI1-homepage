@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- [배포 후 입력] 홈페이지 공개 주소가 정해지면 이 파일에서 SITE-URL 글자를 모두 실제 주소로 바꾸세요. 예: https://www.주소.co.kr -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://SITE-URL/index.html</loc></url>
+  <url><loc>https://SITE-URL/about.html</loc></url>
+  <url><loc>https://SITE-URL/expert.html</loc></url>
+  <url><loc>https://SITE-URL/services.html</loc></url>
+  <url><loc>https://SITE-URL/ai-job.html</loc></url>
+  <url><loc>https://SITE-URL/career.html</loc></url>
+  <url><loc>https://SITE-URL/communication.html</loc></url>
+  <url><loc>https://SITE-URL/cs.html</loc></url>
+  <url><loc>https://SITE-URL/camp.html</loc></url>
+  <url><loc>https://SITE-URL/records.html</loc></url>
+  <url><loc>https://SITE-URL/gallery.html</loc></url>
+  <url><loc>https://SITE-URL/faq.html</loc></url>
+  <url><loc>https://SITE-URL/contact.html</loc></url>
+</urlset>

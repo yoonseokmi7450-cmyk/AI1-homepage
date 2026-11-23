@@ -1,0 +1,34 @@
+
+/* 소식 페이지 (build_site.js가 dist의 style.css 뒤에 붙입니다) */
+@media (min-width:1241px){.nav ul{gap:14px}}
+.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.news-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);transition:transform .4s var(--ease),box-shadow .4s}
+.news-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-up)}
+.news-card .ph{border-radius:0;aspect-ratio:16/10;margin:0}
+.news-body{padding:24px}
+.news-body h2{font-size:21px;margin:8px 0}
+.news-body p{color:var(--sub)}
+.news-meta{display:flex;flex-wrap:wrap;gap:10px;font-size:16px}
+.news-meta span{font-weight:700;color:var(--deep)}
+.crumb--arrow li+li::before{content:">"}
+.post{max-width:720px;font-size:18px;line-height:1.85}
+.post>*+*{margin-top:20px}
+.post-cover{width:100%;border-radius:var(--radius)}
+.post h2{font-size:clamp(24px,2.6vw,30px);margin-top:44px}
+.post h3{font-size:22px;margin-top:32px}
+.post h4{font-size:19px;margin-top:24px}
+.post ul,.post ol{padding-left:24px}
+.post ul{list-style:disc}
+.post ol{list-style:decimal}
+.post li+li{margin-top:6px}
+.post a{color:var(--deep);text-decoration:underline;text-underline-offset:3px}
+.post img{border-radius:var(--radius)}
+.post blockquote{margin:24px 0 0;padding:16px 20px;background:var(--tint);border-radius:12px}
+.post hr{border:0;border-top:1px solid var(--line);margin-block:32px}
+.post-more{display:flex;flex-wrap:wrap;gap:8px 32px;max-width:720px;margin-top:40px}
+@media (max-width:1000px){.news-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:900px){.crumb--arrow li:nth-child(2) a{margin-right:-14px}}
+@media (max-width:640px){
+  .news-grid{grid-template-columns:1fr}
+  .post{font-size:17px}
+}

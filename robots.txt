@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+# [배포 후 입력] 공개 주소가 정해지면 아래 줄 맨 앞의 #을 지우고 SITE-URL을 실제 주소로 바꾸세요.
+# Sitemap: https://SITE-URL/sitemap.xml
